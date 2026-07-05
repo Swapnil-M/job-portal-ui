@@ -43,3 +43,9 @@ Three roles with route protection via `ProtectedRoute` component:
 ### ESLint
 
 Flat config (`eslint.config.js`). The `no-unused-vars` rule ignores variables starting with uppercase or underscore (`varsIgnorePattern: '^[A-Z_]'`).
+
+## Git Conventions
+
+- Branch off `main`. Use prefixes: `feature/` for new work, `fix/` for bugs, `docs/` for documentation. Keep branches short-lived and delete them after merge.
+- Commit messages use prefixes `feat:`/`fix:`/`docs:`/`refactor:`/`style:`, present tense, lowercase, no trailing period, subject under 72 chars.
+- Always open a pull request; never push directly to `main`.
